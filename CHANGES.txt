@@ -1,0 +1,26 @@
+=======
+CHANGES
+=======
+
+1.0.4 (2009-05-13)
+------------------
+
+- Do not use z3c.autoinclude
+
+
+1.0.3 (2009-01-07)
+------------------
+
+- Added 'portlet-googleads' css class to portlet
+
+
+1.0.2 (2008-12-22)
+------------------
+
+- Register portlet template in separate directive
+
+
+1.0.0 (2008-10-03)
+------------------
+
+- Initial release

@@ -1,0 +1,8 @@
+<div class="z-portlet portlet-googleads" i18n:domain="zojax"
+     tal:attributes="class python:context.decoration and 'z-portlet portlet-googleads'
+                     or 'z-portlet portlet-googleads z-portlet-nodecoration'">
+  <h2 class="z-portlet-header" i18n:translate="">Google Ads</h2>
+  <div class="z-portlet-body">
+    <div class="z-portlet-item" tal:content="structure context/source"></div>
+  </div>
+</div>

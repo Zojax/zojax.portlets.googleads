@@ -1,0 +1,17 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:zojax="http://namespaces.zope.org/zojax"
+   i18n_domain="zojax.portlets">
+
+  <zojax:portlet
+     name="portlets.googleads"
+     title="Google Ads"
+     class=".portlet.GoogleAdsPortlet"
+     schema=".interfaces.IGoogleAdsPortlet" />
+
+  <zojax:pagelet
+     type="portlet.view"
+     template="portlet.pt"
+     for=".interfaces.IGoogleAdsPortlet" />
+
+</configure>
