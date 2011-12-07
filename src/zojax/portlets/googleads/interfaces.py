@@ -18,7 +18,7 @@ $Id$
 from zope import schema, interface
 from zope.i18nmessageid import MessageFactory
 
-_ = MessageFactory('zojax.portlets')
+_ = MessageFactory('zojax.portlets.googleads')
 
 
 class IGoogleAdsPortlet(interface.Interface):
