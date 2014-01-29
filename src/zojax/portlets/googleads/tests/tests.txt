@@ -48,15 +48,13 @@ check portlet
     >>> print user.contents
     <html>
     ...
-    <div class="z-portlet portlet-googleads">
+    	  <div class="zojax-portlet-manager"...
       <h2 class="z-portlet-header">Google Ads</h2>
       <div class="z-portlet-body">
         <div class="z-portlet-item"><script> test test </script></div>
       </div>
-    </div>
     ...
     </html>
-
 
 No decoration
 
@@ -67,11 +65,10 @@ No decoration
     >>> print user.contents
     <html>
     ...
-    <div class="z-portlet portlet-googleads z-portlet-nodecoration">
+    ...<div class="z-portlet portlet-googleads z-portlet-nodecoration">
       <h2 class="z-portlet-header">Google Ads</h2>
       <div class="z-portlet-body">
         <div class="z-portlet-item"><script> test test </script></div>
       </div>
-    </div>
     ...
     </html>
